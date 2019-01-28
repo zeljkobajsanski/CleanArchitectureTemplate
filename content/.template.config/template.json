@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Zeljko Bajsanski",
+    "classifications": [ "FullStack", "WebAPI" ],
+    "identity": "bitsEverywhere.CleanArcitectureTemplate",
+    "name": "Clean architecture template",
+    "shortName": "onion",
+	"sourceName": "CleanArchitectureTemplate",
+	"preferNameDirectory" : "true",
+	"tags": {
+		"language": "C#"
+	}
+}
