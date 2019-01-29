@@ -14,11 +14,10 @@
 
     <ItemGroup>
       <Folder Include="Configurations\" />
-      <Folder Include="Extensions\" />
-      <Folder Include="Migrations\" />
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\CleanArchitectureTemplate.Common\CleanArchitectureTemplate.Common.csproj" />
       <ProjectReference Include="..\CleanArchitectureTemplate.Domain\CleanArchitectureTemplate.Domain.csproj" />
     </ItemGroup>
 

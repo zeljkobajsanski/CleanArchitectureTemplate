@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>BitsEverywhere.CleanArchitectureTemplate</id>
+    <version>1.0.0</version>
+    <title>Clean Architecture ASP.NET Core Template</title>
+    <authors>Zeljko Bajsanski</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>dotnet template for solution based on clean architecture</description>
+	 <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>

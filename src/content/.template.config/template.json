@@ -9,5 +9,6 @@
 	"preferNameDirectory" : "true",
 	"tags": {
 		"language": "C#"
-	}
+	},
+	"placeholderFilename": "DeleteMe.txt"
 }

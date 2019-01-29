@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using MediatR.Pipeline;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace CleanArchitectureTemplate.Application.Infrastructure
 {
@@ -16,12 +17,9 @@ namespace CleanArchitectureTemplate.Application.Infrastructure
 
         public Task Process(TRequest request, CancellationToken cancellationToken)
         {
-            var name = typeof(TRequest).Name;
-
-            // TODO: Add User Details
-
-            _logger.LogInformation(" Request: {Name} {@Request}", name, request);
-
+            var name = typeof(TRequest).FullName;
+            var content = JsonConvert.SerializeObject(request);
+            _logger.LogDebug("Sending command with request: {Name} {@Request}", name, content);
             return Task.CompletedTask;
         }
     }
