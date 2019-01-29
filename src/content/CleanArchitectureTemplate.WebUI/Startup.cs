@@ -82,6 +82,7 @@ namespace CleanArchitectureTemplate.WebUI
             app.UseHttpsRedirection();
             app.UseSwagger();
             app.UseSwaggerUi3();
+            app.UseFileServer();
             app.UseMvc();
         }
     }
